@@ -7,19 +7,26 @@
   <body>
     <div id="root"></div>
 
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react-dom.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.21.1/babel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.21.1/babel.min.js"></script>
+    <script type="text/babel">
+    
+      class RotatingName extends React.Component{
+        var Name = "Nestor Cortes";
+        render(){
+          return <h1> My name is, {Name} </h1>;
+        }
+      };
 
-      <script type="text/babel">
       class Greeting extends React.Component {
           render() {
               return (<p>Hello world</p>);
           }
-      }
+      };
 
       ReactDOM.render(
-          <Greeting />,
+          <RotatingName />,
           document.getElementById('root')
       );
 </script>
