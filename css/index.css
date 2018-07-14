@@ -1,3 +1,4 @@
+
 html{
   height:100%;
 }
@@ -6,19 +7,17 @@ body {
     background-size: cover;
     background-image: url("https://www.pentaxforums.com/forums/attachments/41-photo-critique/306795d1461175372-landscape-washed-out-photos-fujicolor-c200-f1080036.jpg");
 }
-tr{
-  font-family:  "Alfa Slab One", "Lucida Console"  , Georgia, Garamond;
-}
 .contentBlock{
   Width:100%;
   height:100%;
 }
 #ContentArea{
   margin:auto;
-  width:75%;
+  width:80%;
   height: 100%;
   background-color: #FFFFFF;
 }
+
 /*
 //=======================================
 // NavBar
@@ -26,10 +25,10 @@ tr{
 */
   #NavBar{
     display: block;
-    border: 2px solid;
+    border: 1px solid;
     height:10%;
     background-color: rgba(255, 255, 255,1);
-    width:100%;
+    width:98%;
     position: fixed;
   }
   #Menu{
@@ -70,8 +69,8 @@ tr{
   display:table;
   width:100%;
   height: 80%;
-  font-family:  "Alfa Slab One", "Lucida Console"  , Georgia, Garamond;
-  font-size: 4em;
+  font-family: "Alfa Slab One", "Lucida Console"  , Georgia, Garamond;
+  font-size: 2.5em;
   text-align:center;
   background-color: white;
 }
@@ -97,12 +96,102 @@ tr{
 //=======================================
 */
 
+.title{
+  font-family: "Alfa Slab One";
+  font-size:1em;
+  text-align: center;
+}
+#projTitle{
+  font-size: 2em;
+}
 #AboutMe{
+  display: table;
+  background-color: #FFFFE0;
+  overflow:hidden;
+  width:100%;
+  height:auto;
+  background-image:url(csusb_Logo.png);
+}
+
+#imgContainer{
+  float:left;
+  display: inline-block;
+  overflow: hidden;
+  box-sizing: border-box;
+  height:100%;
+  width: 50%;
+}
+#me{
+  display: block;
+  margin: 20%;
+  border-radius: 15px;
+  width:60%;
+  height: auto;
+}
+#information{
+  float:left;
+  display:inline-block;
+  box-sizing: border-box;
+  color:black;
+  font-family: 'Raleway', sans-serif;
+  font-size:1.5em;
+  height:100%;
+  Width:50%;
+  overflow: hidden;
+}
+#Bio{
+  line-height: 1.5;
+  margin: 10% 10%;
+
+  display: inline-block;
+  height: inherit;
+  width: 80%;
+}
+/*
+//=======================================
+// Projects_title
+//=======================================
+*/
+#title_container{
+width:100%;
+height: 10%;
+}
+#projTitle{
+  text-align: center;
+  background-color: #FFFFFF;
+}
+/*
+//=======================================
+// Projects
+//=======================================
+*/
+.t_Projects{
+  font-family: "Alfa Slab One";
+  font-style: 1em
+  color: #FFFFFF;
+}
+.projectBox{
+  background-color: #0099FF;
+  font-family: "Alfa Slab One";
+  color: #59ffC9;
+}
+#projects{
+  flex-basis: 0;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  align-items:stretch;
+  background-color: #FFFFFF;
+}
+
+
+
+/* #AboutMe{
   box-sizing: border-box;
   padding: 2.5%;
   background-color: #EEEEEE;
   height:70%;
-}
 
 #ImageFrame{
   float:left;
@@ -131,9 +220,10 @@ tr{
 #Bio{
   width:70%;
   margin:auto;
+  font-family: arial;
   text-align: left;
 }
-.info {
+ .info {
   text-align: left;
 }
 .details {
@@ -147,4 +237,4 @@ tr{
 }
 #title_Projects{
 
-}
+}*/

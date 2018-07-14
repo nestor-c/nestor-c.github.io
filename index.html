@@ -3,17 +3,18 @@
 <html>
   <head>
     <link rel="stylesheet" href="css/index.css">
-    <link href='https://fonts.googleapis.com/css?family=Alfa Slab One' rel='stylesheet'>
+     <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Raleway" rel="stylesheet">
   </head>
   <body>
     <div id="NavBar">
       <ul id="Menu">
         <li class="option"><a href="#"><img src="" alt="Menu"></a></li>
-        <li class="option"><a href="#">Home</a></li>
-        <li class="option"><a href="#">About Me</a></li>
-        <li class="option" id="last_opt"><a href="#">Projects</a></li>
+        <li class="option"><a href="#ContentArea">Home</a></li>
+        <li class="option"><a href="#AboutMe">About Me</a></li>
+        <li class="option" id="last_opt"><a href="#projects">Projects</a></li>
       </ul>
     </div>
+
     <div id="ContentArea">
       <!-- Heading-->
       <div class="contentBlock">
@@ -23,8 +24,43 @@
                </p>
           </div>
       </div>
-      <!-- About me section -->
-      <div id="AboutMe" class="contentBlock">
+      <!-- About Me-->
+      <div id="AboutMe">
+        <div id="imgContainer">
+          <img id="me" src="http://www.keatleyphoto.com/wp-content/uploads/2014/07/Bill-Gates-John-Keatley-500x500.jpg" />
+        </div>
+        <div id="information">
+          <h1 class="title"> A little about me </h1>
+          <p id="Bio">
+            I am a California State University, San Bernardino alumnus.
+            I received my Bachelors of Science in Computer Science in March
+            of 2017. My goal is to create software that is compelling and
+            innovative and, above all, useful.
+          </p>
+        </div>
+      </div>
+
+      <div id="title_container">
+        <h1 id="projTitle"class="title"> Projects </h1>
+      </div>
+      <div id="projects" class="contentBlock">
+        <!-- Android -->
+        <div id="android" class="projectBox">
+          <h1> Android </h1>
+        </div>
+        <!-- Website -->
+        <div id="Site"class="projectBox">
+          <h1> Site </h1>
+        </div>
+        <!--React Website redesign -->
+        <div id="React" class="projectBox">
+          <h1> React </h1>
+        </div>
+      </div>
+
+      </div>
+    </div>
+      <!-- <div id="AboutMe" class="contentBlock">
         <div id="ImageFrame">
           <img id="image" src="http://www.keatleyphoto.com/wp-content/uploads/2014/07/Bill-Gates-John-Keatley-500x500.jpg"  alt="500x500 Image"/>
           </div>
@@ -33,6 +69,7 @@
               <b>Name:</b> Nestor Daniel Cortes Reyna <br/>
               <b>Location:</b> Rialto, ca<br/>
               <b>E-Mail:</b> Nestord.cortes@gmail.com<br/>
+              <b>Phone:</b> (909)268-4859 <br/>
               <b>About me:</b><br/>
 
              I am a California State University, San Bernardino alumnus.
@@ -43,15 +80,17 @@
           </p>
         </div>
       </div>
-      <!-- <div id="ProjectContainer" class="contentBlock">
+       <div id="ProjectContainer" class="contentBlock">
         <h1 id="title_Projects"> Projects </h1>
         <div id="InteractiveRosary">
            <img src="">
         </div>
       </div>
       <div id="EducationContainer"class="contentBlock">
-      </div>  -->
-    </div>
+      </div> -->
+
+
+     <!-- Content Area -->
     <script src="js/index.js"></script>
   </body>
 </html>
