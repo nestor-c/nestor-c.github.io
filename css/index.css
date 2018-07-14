@@ -67,6 +67,7 @@ body {
 */
 #Heading{
   display:table;
+  margin-top: 10%;
   width:100%;
   height: 80%;
   font-family: "Alfa Slab One", "Lucida Console"  , Georgia, Garamond;
@@ -124,7 +125,7 @@ body {
 #me{
   display: block;
   margin: 20%;
-  border-radius: 15px;
+  border-radius: 10px;
   width:60%;
   height: auto;
 }
@@ -165,23 +166,25 @@ height: 10%;
 // Projects
 //=======================================
 */
-.t_Projects{
-  font-family: "Alfa Slab One";
-  font-style: 1em
-  color: #FFFFFF;
-}
+
 .projectBox{
+  border-radius: 10px;
+  width: 30%;
+  height:80%;
   background-color: #0099FF;
   font-family: "Alfa Slab One";
+  font-size: 1em;
+  text-align: center;
   color: #59ffC9;
 }
 #projects{
+  border-radius: 10px;
   flex-basis: 0;
   height: 50%;
   display: flex;
   flex-direction: row;
   justify-content:space-around;
-  align-items:stretch;
+  align-items: center;
   background-color: #FFFFFF;
 }
 
