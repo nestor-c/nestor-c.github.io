@@ -1,11 +1,10 @@
 $(document).ready(function(){
-$("#Heading")
-.css('display', 'none')
-.css("opacity", "0")
-.slideDown(2000)
-.animate(
-  {opacity: 1},
-  { queue: false, duration: 3000 }
-);
-
+  $("#Heading")
+  .css('display', 'none')
+  .css('fontSize', '4em')
+  .fadeIn(2000)
+  .animate(
+    {fontSize: "2.5em"},
+    {queue:false, duration:1000, easing:"linear"}
+  );
 });
